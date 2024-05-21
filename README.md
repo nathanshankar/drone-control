@@ -2,6 +2,12 @@
 
 The objective of this assignment is to create a simple feedback control algorithm for position stabilization of an Unmanned Aerial System (UAS). The alternate objective is to use advanced control techniques to improve the stabilization of the UAS in the presence of wind.
 
+## With Wind
+https://github.com/nathanshankar/drone-control/assets/66565433/420a624a-620d-4a44-900a-9ef6a6e56c4f
+
+## Without Wind
+https://github.com/nathanshankar/drone-control/assets/66565433/c26fdb9e-ec11-4855-871f-1565348f2d85
+
 ## Overview
 
 From the block diagram, we can visualize the overall working of our code. Let’s review the working by each segment:
