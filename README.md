@@ -53,7 +53,7 @@ Comparing our controller's performance on the drone with and without wind, we ob
 
 ## Tuning the System
 
-To tune our system, we segmented our objective into four different parameters. These parameters are tuned using trial and error and from observations on the system dynamics.
+To tune our system, I have segmented our objective into four different parameters. These parameters are tuned using trial and error and from observations on the system dynamics.
 
 1. **Y-Axis Tuning**:
     - We started by setting initial setpoints and using a high P gain to quickly decrease error and enhance speed.
@@ -68,8 +68,8 @@ To tune our system, we segmented our objective into four different parameters. T
 
 ## Addressing Oscillations and Fluid Trajectory
 
-While our system performed adequately under standard conditions, it displayed fluid trajectory and oscillations, notably in strong gusty winds. To address this, we integrated DOBC to calculate additional trajectory adjustments. By modifying the alpha value as convergence approached, we achieved a more stable path and quicker goal attainment. With minimal wind impact along the y-axis, we kept the beta gain low to reduce unnecessary adjustments. We also observed that the alpha value affected the initially set PID gains for x and attitude, prompting further manual tuning for the desired controller response.
+While our system performed adequately under standard conditions, it displayed fluid trajectory and oscillations, notably in strong gusty winds. To address this, we integrated DOBC to calculate additional trajectory adjustments. By modifying the alpha value as convergence approached, we achieved a more stable path and quicker goal attainment. With minimal wind impact along the y-axis, we kept the beta gain low to reduce unnecessary adjustments. We also observe that the alpha value affected the initially set PID gains for x and attitude, prompting further manual tuning for the desired controller response.
 
 ## Conclusion
 
-Our controller utilizes PID tuning for the y-axis, x-axis, and attitude, emphasizing speed and stability while accommodating different error conditions using the Dynamic PID. Integration of a DOBC enhances robustness, effectively countering external disturbances. The controller's blend of traditional and advanced control methods showcases a comprehensive approach to drone control.
+My controller utilizes PID tuning for the y-axis, x-axis, and attitude, emphasizing speed and stability while accommodating different error conditions using the Dynamic PID. Integration of a DOBC enhances robustness, effectively countering external disturbances. The controller's blend of traditional and advanced control methods showcases a comprehensive approach to drone control.
