@@ -11,6 +11,8 @@ https://github.com/nathanshankar/drone-control/assets/66565433/c26fdb9e-ec11-485
 ## Overview
 
 From the block diagram, we can visualize the overall working of our code. Let’s review the working by each segment:
+![image](https://github.com/nathanshankar/drone-control/assets/66565433/366cddc3-5119-4467-8d7e-dae9410f42c5)
+
 
 1. **Controller Inputs and Outputs**:
     - The controller is fed with inputs of the state, the target position, and the time step.
